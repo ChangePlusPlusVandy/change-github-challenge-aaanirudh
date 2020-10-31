@@ -1,1 +1,1 @@
-# chnage-github-challenge
+# change-github-challenge
