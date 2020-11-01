@@ -6,7 +6,7 @@ technology is typically used within Change++.
 If this is your first time working with git, check out [this document](https://docs.google.com/document/d/1D89Tvytivgpwm0VHu8-KRdGXipxD7ze28uD_goA2j88/edit) we made to help get you up to speed!
 
 To give a quick overview: you're going to be cloning this repo to your computer, creating your own branch, 
-updating a sample page for your project, pushing that branch, and creating a pull request for it on github. Shouldn't take more than an hour to complete; let's get started.
+updating a sample page for your project, pushing that branch, and creating a pull request for it on GitHub. Shouldn't take more than an hour to complete; let's get started.
 
 ## 1. Clone the repository to your computer
 
@@ -42,13 +42,25 @@ Try running "git branch" again to see if you can see your new branch. To switch 
 $ git checkout <branchname>
 ```
 
+## 2.5 Install Node.js and npm (if you don't already have it)
+
+You'll need to have Node.js installed to run the javascript file on your computer; this should be really quick.
+If you don't already have it you can either visit [this link](https://nodejs.org/en/download/) or run this command if 
+you're on macOS:
+
+```bash
+$ brew install node
+```
+
 ## 3. Update the sample page
 
 Now that you're on your own branch, it's time to update the sample page. You can spin up a local version of the page 
-by using terminal to navigating to the sample-page directory and running "npm start":
+by using terminal to navigating to the sample-page directory, running "npm install" to get all the necessary modules, 
+and running "npm start":
 
 ```bash
 $ cd sample-page
+$ npm install
 $ npm start
 ```
 From here, any changes you make to the code will update in real time on the page. If you want to stop running the
