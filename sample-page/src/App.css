@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.page-title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  height: auto;
+  position: absolute;
+  top: 5vh;
+}
+
+.page-title {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.page-description {
+  font-size: 1.5rem;
+}
+
+.team-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 95vw;
+  height: 35vh;
+  /*border: 1px solid red;*/
+
+}
+
+.club-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  position: absolute;
+  bottom: 1vh;
+  font-size: 1rem;
+
+}
+
+.club-logo-image {
+  width: 8vw;
+  height: auto;
+}
