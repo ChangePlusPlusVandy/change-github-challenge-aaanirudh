@@ -26,6 +26,13 @@ function App() {
               <Member name = 'Jaden Hicks' favFood = 'calamari' favColor='orange'/>
           </div>
 
+          <div className='team-section'>
+              {/*MAKE CHANGES HERE*/}
+              {/* the code below is an example of how to create a member component.*/}
+              {/* feel free to copy it and update with your information */}
+              <Member name = 'Olivia' favFood = 'Shepherd\'s Pie' favColor='cerulean'/>
+          </div>
+
           <div className='club-logo'>
               <label htmlFor='logo'>Developed by</label>
               <a href='http://changeplusplus.org/'>
