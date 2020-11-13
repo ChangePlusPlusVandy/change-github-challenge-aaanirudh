@@ -1,5 +1,5 @@
 .member {
-    width: 15%;
+    width: 18%;
     height: 75%;
     display: flex;
     justify-content: center;
@@ -9,3 +9,5 @@
     border-radius: 10px;
     font-size: 1rem;
 }
+
+
