@@ -24,6 +24,7 @@ function App() {
               {/* the code below is an example of how to create a member component.*/}
               {/* feel free to copy it and update with your information */}
               <Member name = 'Jaden Hicks' favFood = 'calamari' favColor='orange'/>
+              <Member name = 'Alex Barrera-Waters' favFood = 'granola' favColor='blue'/>
               <Member name = 'Ani Bala...' favFood = 'Apples' favColor='Blue'/>
           </div>
 
