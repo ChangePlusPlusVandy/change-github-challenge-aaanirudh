@@ -16,7 +16,7 @@ function App() {
               </p>
           </div>
 
-          <p style={{fontSize: '2rem'}}>Project Name: Moraga Orinda Fire District Project </p>
+          <p style={{margin: "5px", fontSize: '2rem'}}>Project Name: Change++ Github Demo </p>
           <p style={{margin: "5px", fontSize: "1.6rem"}}>Team members:</p>
 
           <div className='team-section'>
@@ -25,6 +25,7 @@ function App() {
               {/* feel free to copy it and update with your information */}
               <Member name = 'Jaden Hicks' favFood = 'calamari' favColor='orange'/>
               <Member name = 'Alex Barrera-Waters' favFood = 'granola' favColor='blue'/>
+              <Member name = 'Ani Bala...' favFood = 'Apples' favColor='Blue'/>
           </div>
 
           <div className='club-logo'>
