@@ -16,14 +16,11 @@ function App() {
               </p>
           </div>
 
-          <p style={{fontSize: '2rem'}}>Project Name: Change++ Exec </p>
-          <p style={{margin: "5px", fontSize: "1.6rem"}}>Team members:</p>
-
+          <p style={{fontSize: '2rem'}}>Project Name: Fire App </p>
+          <p style={{margin: "5px", fontSize: "1.6rem"}}>Team members:</p>                                                  
+          
           <div className='team-section'>
-              {/*MAKE CHANGES HERE*/}
-              {/* the code below is an example of how to create a member component.*/}
-              {/* feel free to copy it and update with your information */}
-              <Member name = 'Jaden Hicks' favFood = 'calamari' favColor='orange'/>
+              <Member name = 'Hadley Shapland' favFood = 'PB & J' favColor='Yellow'/>
           </div>
 
           <div className='club-logo'>
